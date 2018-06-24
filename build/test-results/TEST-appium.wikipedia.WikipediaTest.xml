@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="appium.wikipedia.WikipediaTest" tests="6" skipped="2" failures="0" errors="0" timestamp="2018-06-23T20:52:08" hostname="Barts-MBP" time="52.052">
+  <properties/>
+  <testcase name="checkArticleContainsTitle" classname="appium.wikipedia.WikipediaTest" time="26.921"/>
+  <testcase name="checkArticleContainsTableOfContentsIsNotDisplayed" classname="appium.wikipedia.WikipediaTest" time="15.996"/>
+  <testcase name="checkArticleContainsTableOfContents" classname="appium.wikipedia.WikipediaTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="check20SearchResultsDisplayedAfterTappingOnSuggestion" classname="appium.wikipedia.WikipediaTest" time="5.492"/>
+  <testcase name="checkSuggestionIsDisplayedAfterSearch" classname="appium.wikipedia.WikipediaTest" time="3.642"/>
+  <testcase name="checkSiteTitle" classname="appium.wikipedia.WikipediaTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

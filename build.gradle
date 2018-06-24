@@ -1,0 +1,15 @@
+group 'AppiumMobileWebsiteTests'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'io.appium:java-client:4.0.0'
+    testCompile('' +
+            'junit:junit:4.12'
+    )
+}

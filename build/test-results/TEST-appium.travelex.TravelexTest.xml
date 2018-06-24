@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="appium.travelex.TravelexTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-06-23T20:53:00" hostname="Barts-MBP" time="12.19">
+  <properties/>
+  <testcase name="checkThirdBanerIsDisplaydAfterScrolling" classname="appium.travelex.TravelexTest" time="12.19"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
