@@ -4,10 +4,10 @@ This repository contains sample Appium tests for two mobile websites using Java 
 
 ## What will you need before running test?
 
-1. [Appium desktop app](https://github.com/appium/appium-desktop/releases/tag/v1.6.2). You can also install Appium via NPM, please find the instruction [here](https://www.edgewordstraining.co.uk/2017/07/05/install-appium-server-windows/)
+1. [Appium desktop app](https://github.com/appium/appium-desktop/releases/tag/v1.6.2). You can also install Appium via NPM, please find the instruction [here](https://www.edgewordstraining.co.uk/2017/07/05/install-appium-server-windows/).
 2. Tool to run emulator:
-[Android Studio](https://developer.android.com/studio/) - AVD Manager or [Genymotion](https://www.genymotion.com/)
-4. Some IDE e.g. [IntelliJ](https://www.jetbrains.com/idea/)
+[Android Studio](https://developer.android.com/studio/) - AVD Manager or [Genymotion](https://www.genymotion.com/).
+4. Some IDE e.g. [IntelliJ](https://www.jetbrains.com/idea/).
 
 ## Design / implementation decisions
 Test framework was created by using Java with Appium - open source test automation framework - that allows you to automate websites running on mobile devices. 
@@ -29,14 +29,14 @@ In the `...Page` classes there are WebElements and methods that perform desired 
 
 ## AppiumSetup class
 
-`setCapabilities()` allow you to specify environment where tests will be executed. It can be web browser, real mobile device, Android emulator or iOS simulator.There are many capabilities you can specify for your testing needs. Desired capabilities are the keys that user provides at the beginning of test session. In my project I used [MobileCapabilityType](https://appium.github.io/java-client/io/appium/java_client/remote/MobileCapabilityType.html) class.
+`setCapabilities()` allow you to specify environment where tests will be executed. It can be web browser, real mobile device, Android emulator or iOS simulator. There are many capabilities you can specify for your testing needs. Desired capabilities are the keys that user provides at the beginning of test session. In my project I used [MobileCapabilityType](https://appium.github.io/java-client/io/appium/java_client/remote/MobileCapabilityType.html) class.
 
 To specify on which device tests should run you need to provide deviceName in setCapabilities. Device name can be checked by running command in terminal `adb devices` that would list all running/connected devices. In my AppiumSetup class you will notice that `deviceName` is `emulator-5554` which is default name for the first emulator opened.
 
 `getDriver()` this method launches AppiumDriver and allows communication and test execution between Appium server and testing framework. Please read more about various types of drivers [here](https://discuss.appium.io/t/what-is-the-use-or-difference-between-androiddriver-iosdriver-appiumdriver-and-remote-webdriver/8750)
 
 ## Run tests from IDE
-
+f
 1. Clone the project from the repository.
 2. Open it in your IDE.
 3. Start Appium server from desktop app or [Terminal](https://www.edgewordstraining.co.uk/2017/07/05/install-appium-server-windows/)

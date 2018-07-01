@@ -1,10 +1,7 @@
 package appium.wikipedia;
 
 import appium.utils.AppiumSetup;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.*;
 
 import java.io.InterruptedIOException;
 import java.net.MalformedURLException;

@@ -8,10 +8,11 @@ import static appium.utils.AppiumSetup.getDriver;
 
 class TravelexPage {
 
-    void scrollToSlider() {
+   public TravelexPage scrollToSlider() {
         Actions actions = new Actions(getDriver());
         actions.moveToElement(slider());
         actions.perform();
+        return this;
     }
 
     void swipeToSecondTab() {

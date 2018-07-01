@@ -18,7 +18,7 @@ public class TravelexTest extends AppiumSetup {
     }
 
     @Test
-    public void checkThirdBanerIsDisplaydAfterScrolling() throws InterruptedException {
+    public void checkThirdBannerIsDisplayedAfterScrolling() throws InterruptedException {
         travelexPage.clickOnCrossIconCookiesMessage();
         travelexPage.scrollToSlider();
         travelexPage.swipeToSecondTab();
