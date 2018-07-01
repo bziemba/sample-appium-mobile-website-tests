@@ -9,7 +9,9 @@ repositories {
 
 dependencies {
     compile 'io.appium:java-client:4.0.0'
+    compile group: 'info.cukes', name: 'cucumber-java',
+            version:'1.2.5'
     testCompile('' +
-            'junit:junit:4.12'
+            'junit:junit:4.12',
     )
 }

@@ -6,7 +6,7 @@ import org.openqa.selenium.interactions.Actions;
 
 import static appium.utils.AppiumSetup.getDriver;
 
-class TravelexPage {
+public class TravelexPage {
 
    public TravelexPage scrollToSlider() {
         Actions actions = new Actions(getDriver());
@@ -15,25 +15,25 @@ class TravelexPage {
         return this;
     }
 
-    void swipeToSecondTab() {
+    public void swipeToSecondTab() {
         Actions actions = new Actions(getDriver());
         actions.moveToElement(secondTab());
         actions.perform();
     }
 
-    void swipeToThirdTab() {
+    public void swipeToThirdTab() {
         Actions actions = new Actions(getDriver());
         actions.moveToElement(thirdTab());
         actions.perform();
     }
 
-    void clickOnCrossIconCookiesMessage() {
+    public void clickOnCrossIconCookiesMessage() {
         if (cookiesMessageAcceptIcon().isDisplayed()) {
             cookiesMessageAcceptIcon().click();
         }
     }
 
-    void checkBuyButtonIsDisplayed() {
+    public void checkBuyButtonIsDisplayed() {
         buyButton().isDisplayed();
     }
 
